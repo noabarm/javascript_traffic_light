@@ -1,0 +1,34 @@
+.trafficBackground{
+    width: 15%;
+    margin:auto;
+    position: relative;
+    background: black;
+}
+.lightBox{
+    margin:auto;
+    height: 200px;
+    width: 200px;
+    background: white;
+    border-radius: 50%;
+    /*box-shadow: inset 50px -40px 40px 65px black;*/
+}
+
+.redLight{
+    box-shadow: inset 50px -40px 40px 65px red;
+}
+
+.yellowLight{
+    box-shadow: inset 50px -40px 40px 65px yellow;
+}
+
+.greenLight{
+    box-shadow: inset 50px -40px 40px 65px green;
+}
+
+.lightOff{
+    box-shadow: inset 50px -40px 40px 65px black;
+}
+
+.spacer{
+    height : 50px;
+}
